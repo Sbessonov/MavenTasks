@@ -4,7 +4,7 @@ public class Circle extends AbstractShape {
 
     private final double radius;
 
-    public Circle(double radius) {
+    public Circle(double radius, int a) {
         if (radius <= 0) {
             throw new IllegalArgumentException();
         }

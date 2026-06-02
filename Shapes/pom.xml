@@ -6,11 +6,14 @@
     <parent>
         <groupId>com.code</groupId>
         <artifactId>GeometryLibrary</artifactId>
-        <version>1.1.0</version>
+        <version>5.2.0</version>
+        <relativePath>../pom.xml</relativePath>
     </parent>
 
     <artifactId>Shapes</artifactId>
-    <version>1.0.0</version>
+    <packaging>jar</packaging>
+<!--    аналогично GeometryUtils. Либо оставить вресию, но проставлять везде, либо командой мавена ставить равной родительскому проекту-->
+    <version>6.0.0</version>
 
     <properties>
         <maven.compiler.source>21</maven.compiler.source>
