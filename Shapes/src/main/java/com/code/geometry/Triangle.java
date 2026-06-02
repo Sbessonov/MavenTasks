@@ -23,6 +23,6 @@ public class Triangle extends AbstractShape {
 
     @Override
     public void draw() {
-        System.out.println("Triangle");;
+        System.out.println("Triangle");
     }
 }

@@ -23,6 +23,6 @@ public class Circle extends AbstractShape {
 
     @Override
     public void draw() {
-        System.out.println("Circle");;
+        System.out.println("Circle");
     }
 }

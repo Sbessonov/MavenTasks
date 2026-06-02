@@ -23,6 +23,6 @@ public class Square extends AbstractShape{
 
     @Override
     public void draw() {
-        System.out.println("Square");;
+        System.out.println("Square");
     }
 }
