@@ -20,6 +20,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
+<!--    Ключевые изменения тут. Удобно создать управление зависимостями, чтобы не прыгать по модулям и искать нужные-->
     <dependencyManagement>
         <dependencies>
             <dependency>
